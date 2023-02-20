@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "date": {
+        "type": "integer"
+      },
+      "channel_id": {
+        "type": ["null", "string"]
+      },
+      "video_id": {
+        "type": ["null", "string"]
+      },
+      "claimed_status": {
+        "type": ["null", "string"]
+      },
+      "uploader_type": {
+        "type": ["null", "string"]
+      },
+      "country_code": {
+        "type": ["null", "string"]
+      },
+      "estimated_partner_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_partner_ad_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_partner_ad_auction_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_partner_ad_reserved_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_youtube_ad_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_monetized_playbacks": {
+        "type": ["null", "integer"]
+      },
+      "estimated_playback_based_cpm": {
+        "type": ["null", "integer"]
+      },
+      "ad_impressions": {
+        "type": ["null", "integer"]
+      },
+      "estimated_cpm": {
+        "type": ["null", "integer"]
+      },
+      "estimated_partner_red_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_partner_transaction_revenue": {
+        "type": ["null", "integer"]
+      }
+    }
+  }
+  

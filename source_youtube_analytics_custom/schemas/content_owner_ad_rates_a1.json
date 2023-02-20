@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "date": {
+        "type": "integer"
+      },
+      "channel_id": {
+        "type": ["null", "string"]
+      },
+      "video_id": {
+        "type": ["null", "string"]
+      },
+      "claimed_status": {
+        "type": ["null", "string"]
+      },
+      "uploader_type": {
+        "type": ["null", "string"]
+      },
+      "country_code": {
+        "type": ["null", "string"]
+      },
+      "ad_type": {
+        "type": ["null", "integer"]
+      },
+      "estimated_youtube_ad_revenue": {
+        "type": ["null", "integer"]
+      },
+      "estimated_cpm": {
+        "type": ["null", "integer"]
+      },
+      "ad_impressions": {
+        "type": ["null", "integer"]
+      }
+    }
+}
